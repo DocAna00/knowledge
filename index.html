@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ «ЗНАНИЕ»</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/burger.js"></script>
+  <script defer src="js/tabs.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__content">
+        <div class="header__logo-wrap">
+          <img class="header__logo" src="img/svg/logo.svg" alt="Логотип" width="71" height="71">
+          <p class="header__logo-text">МА «ЗНАНИЕ»</p>
+        </div>
+        <nav class="header__nav">
+          <div class="header__menu-wrap js-menu-wrap">
+            <div class="header__logo-wrap burger-logo">
+              <img class="header__logo" src="img/svg/logo.svg" alt="Логотип" width="60" height="60">
+              <p class="header__logo-text">МА «ЗНАНИЕ»</p>
+            </div>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Е.М. Малитиков</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Комитет</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">МА «ЗНАНИЕ»</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">МАКСМ</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="news.html" target="_blank">Новости</a>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Научно-популярный канал МА
+                  «ЗНАНИЕ»</a>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="contacts.html"
+                  target="_blank">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header__lang-desktop">
+          <a class="header__lang" href="#">
+            <img class="header__lang-icon" src="img/svg/flag-UK.svg" alt="Флаг Великобритании" width="34"
+              height="34"><span class="header__lang-name">En</span>
+          </a>
+        </div>
+        <div class="header__button-wrapper">
+          <button class="header__visually">
+            <svg class="header__visually-icon" width="30" height="12" viewBox="0 0 30 12" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M26.2502 2.5C26.5502 2.5 26.8127 2.6125 26.9877 2.8125C27.1627 3 27.2377 3.275 27.2002 3.575L26.5752 7.3125C26.4752 8.125 25.7502 8.75 25.0002 8.75H21.2502C20.4503 8.75 19.5503 8.05 19.3753 7.275L18.0503 3.2875C18.0002 3.125 18.0378 2.8875 18.1253 2.7375C18.2628 2.5875 18.4753 2.5 18.7503 2.5H26.2502ZM21.2502 11.25H25.0002C27.0252 11.25 28.8002 9.675 29.0502 7.675L29.6752 3.9375C29.8127 2.875 29.5127 1.875 28.8627 1.15C28.2127 0.425 27.2627 0 26.2502 0H18.7503C17.7128 0 16.7753 0.4375 16.1753 1.2C16.0378 1.3875 15.9128 1.5875 15.8127 1.8125C15.2753 1.7 14.7253 1.7 14.2003 1.8125C14.1003 1.5875 13.9753 1.3875 13.8253 1.2C13.2378 0.4375 12.3003 0 11.2503 0H3.75025C2.73775 0 1.78775 0.425 1.13775 1.15C0.500252 1.875 0.200253 2.875 0.325253 3.8875L0.962753 7.725C1.20025 9.675 2.98775 11.25 5.00025 11.25H8.75025C10.7003 11.25 12.6003 9.7625 13.0753 7.875L14.2003 4.4875C14.6753 4.1375 15.3378 4.1375 15.8127 4.4875L16.9628 7.9625C17.4128 9.775 19.3003 11.25 21.2502 11.25ZM11.2503 2.5C11.5253 2.5 11.7378 2.5875 11.8753 2.7375C11.9753 2.8875 12.0003 3.125 11.9378 3.375L10.6753 7.1875C10.4503 8.05 9.55025 8.75 8.75025 8.75H5.00025C4.26275 8.75 3.52525 8.125 3.43775 7.3625L2.80025 3.525C2.76275 3.275 2.83775 3 3.01275 2.8125C3.18775 2.6125 3.45025 2.5 3.75025 2.5H11.2503Z">
+              </path>
+            </svg>
+          </button>
+          <button class="header__burger hamburger hamburger--collapse js-burger" type="button">
+            <span class="hamburger__box">
+              <span class="hamburger__inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero__container container">
+      <div class="hero__content">
+        <h1 class="hero__content-heading">МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ «ЗНАНИЕ»</h1>
+        <div class="hero__quote-wrap">
+          <pre class="hero__content-quote">Между НАУКОЙ и ЖИЗНЬЮ
+            протекает ВЕЛИКАЯ РЕКА
+            Она называется ЗНАНИЕ</pre>
+          <span class="hero__content-quote-author">Е. Малитиков</span>
+        </div>
+      </div>
+      <picture>
+        <source srcset="img/prometheus-360.webp" media="(max-width: 360px)">
+        <source srcset="img/prometheus-768.webp" media="(max-width: 768px)">
+        <source srcset="img/prometheus-960.webp" media="(max-width: 960px)">
+        <img class="hero__content-image" src="img/prometheus-1440.webp" alt="Прометей" width="1360" height="518">
+      </picture>
+
+    </div>
+  </section>
+  <section class="president">
+    <div class="president__container container">
+      <h2 class="president__heading heading-768">О президенте МА «ЗНАНИЕ»</h2>
+      <div class="president__content">
+        <div class="president__content-left">
+          <h2 class="president__heading">О президенте МА «ЗНАНИЕ»</h2>
+          <p class="president__text">Ефим Малитиков принадлежит к когорте людей — прирожденных лидеров: твердый
+            характер, дерзкий по натуре, экстремальный в поступках, предельно уверенный в себе, мощный аналитик,
+            победитель всегда и во всем. Судьба уготовала ему немало испытаний: когда он получал признание среди
+            сверстников, закалял дух и тело (например, купаясь в проруби при минус 25 градусах), стал заметной величиной
+            в спорте, быстро и уверенно преодолевал ступень за ступенью в системе одного из оборонных ведомств страны.
+            Е.М.Малитиков прошел серьезную школу в общественных структурах, накопил солидный багаж в бизнесе — как в
+            локальном, так и глобальном. Не раз «был бит», но всегда оставался на ногах.
+            <br><br>
+            <span class="president__text-bottom">
+              На сегодня Е.М. Малитиков добился безусловного авторитета в самых разных сферах. Он — действительный член
+              12
+              академий, крупный международный чиновник, профессор.
+            </span>
+          </p>
+          <button class="president__button button">Узнать больше</button>
+        </div>
+        <div class="president__content-right">
+          <picture class="president__picture">
+            <source srcset="img/president-360.webp" media="(max-width: 480px)">
+            <source srcset="img/president-768.webp" media="(max-width: 768px)">
+            <source srcset="img/president-960.webp" media="(max-width: 1024px)">
+            <img class="president__image" src="img/president-1440.webp" alt="Президент компании Е.М. Малитиков"
+              width="549" height="519">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="facts">
+    <div class="facts__container container">
+      <div class="facts__content">
+        <h2 class="facts__heading">Несколько фактов о МА «ЗНАНИЕ»</h2>
+        <p class="facts__text">Международная ассоциация "Знание" занимается содействием в области образования и науки,
+          сосредотачивая свои усилия на содействии распространению знаний и информации в масштабах всего мира. Она
+          организует конференции, семинары, и другие мероприятия, направленные на обмен опытом и идеями между учеными и
+          специалистами из разных стран. Также ассоциация поддерживает публикацию научных статей, книг и других
+          материалов, способствуя их распространению и доступности для широкой аудитории</p>
+        <button class="facts__button button">Подробнее</button>
+      </div>
+    </div>
+  </section>
+  <section class="history">
+    <div class="history__container container">
+      <h2 class="history__heading">История развития</h2>
+      <div class="history__content">
+        <div class="history__tabs js-tabs-wrap">
+          <div class="history__tabs-wrap active js-tab-content" data-target="one">
+            <div class="history__tabs-content">
+              <picture>
+                <source srcset="img/stalin-960.webp" media="(max-width: 1024px)">
+                <img class="history__image" src="img/stalin-1440.webp" alt="Сталин" width="549" height="366">
+              </picture>
+              <div class="history__text-wrap">
+                <h3 class="history__tab-heading">1947</h3>
+                <p class="history__tab-text">Международная ассоциация "Знание" начала свою деятельность в XIX веке для
+                  организации международного обмена знаниями и опытом. Стартовав с конференций и семинаров, она активно
+                  поддерживает публикацию научных материалов, став важным форумом для ученых и специалистов по обмену
+                  идеями и содействию научному прогрессу.</p>
+                <a class="history__more-link" href="#">
+                  <div class="history__more-wrap">
+                    <p class="history__more">Подробнее</p>
+                    <span class="history__arrow">
+                      <img src="img/svg/right-arrow-white.svg" alt="Стрелочка" width="16" height="16">
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="history__tabs-wrap js-tab-content" data-target="two">
+            <div class="history__tabs-content">
+              <img class="history__image" src="img/lenin.webp" alt="Сталин" width="549" height="366">
+              <div class="history__text-wrap">
+                <h3 class="history__tab-heading">1923</h3>
+                <p class="history__tab-text">Международная ассоциация "Знание" начала свою деятельность в XIX веке для
+                  организации международного обмена знаниями и опытом. Стартовав с конференций и семинаров, она активно
+                  поддерживает публикацию научных материалов, став важным форумом для ученых и специалистов по обмену
+                  идеями и содействию научному прогрессу.</p>
+                <a class="history__more-link" href="#">
+                  <div class="history__more-wrap">
+                    <p class="history__more">Подробнее</p>
+                    <span class="history__arrow">
+                      <img src="img/svg/right-arrow-white.svg" alt="Стрелочка" width="16" height="16">
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="history__list-wrap">
+            <ul class="history__list">
+              <li class="history__list-item"><button class="history__list-btn js-tab-btn" data-path="one">1947</button>
+              </li>
+              <li class="history__list-item"><button class="history__list-btn js-tab-btn" data-path="two">2014</button>
+              </li>
+              <li class="history__list-item"><button class="history__list-btn js-tab-btn">2016</button>
+              </li>
+              <li class="history__list-item hidden-mobile"><button class="history__list-btn js-tab-btn">2018</button>
+              </li>
+              <li class="history__list-item hidden-mobile"><button class="history__list-btn js-tab-btn">2020</button>
+              </li>
+              <li class="history__list-item hidden-mobile"><button class="history__list-btn js-tab-btn">2022</button>
+              </li>
+              <li class="history__list-item hidden-btn"><button class="history__list-btn js-tab-btn">2023</button>
+              </li>
+              <li class="history__list-item hidden-btn"><button class="history__list-btn js-tab-btn">2024</button>
+              </li>
+              <li class="history__list-item hidden-btn"><button class="history__list-btn js-tab-btn">2026</button>
+              </li>
+            </ul>
+            <button class="history__slider-btn"><img src="img/svg/arrow-slider-right.svg" alt="Кнопка вправо" width="34"
+                height="34"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="news__container container">
+      <div class="news__content">
+        <h2 class="news__heading">Новостная лента</h2>
+        <ul class="news__list grid-4">
+          <li class="news__list-card">
+            <img class="news__card-image" src="img/news-1.webp" alt="Академик Малитиков" width="318" height="226">
+            <span class="news__extra">21 Января 2021</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">“Футуристические предсказания” Академика Малитикова</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card">
+            <img class="news__card-image" src="img/news-2.webp" alt="Награждение Доктора Фанни Вильнер" width="318"
+              height="226">
+            <span class="news__extra">24 Июня 2019</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">Награждение Доктора Фанни Вильнер медалью Академика Малитикова — г.
+                Ашдод,
+                Израиль</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card">
+            <img class="news__card-image" src="img/news-3.webp" alt="Лекция доктора Фани Вильнер" width="318"
+              height="226">
+            <span class="news__extra">14 Июня 2019</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">Лекция доктора Фани Вильнер – 14/06/2019 – Офис МА «Знание», Москва</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card">
+            <img class="news__card-image" src="img/news-4.webp" alt="Заседание Российского общественного совета"
+              width="318" height="226">
+            <span class="news__extra">03 Апреля 2019</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">Заседание Российского общественного совета: Россия и НАТО — 3 преля 2019
+                г.
+                — Москва</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card hidden-mobile">
+            <img class="news__card-image" src="img/news-4.webp" alt="Круглый стол в Общественной Палате РФ" width="318"
+              height="226">
+            <span class="news__extra">23 Мая 2019</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">Круглый стол в Общественной Палате РФ — 23 мая 2019 г.</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card hidden-mobile">
+            <img class="news__card-image" src="img/news-6.webp" alt="20-летие МАААК" width="318" height="226">
+            <span class="news__extra">23 Ноября 2018</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">20-летие МАААК – 23 ноября 2018 г. – Москва, Россия</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card hidden">
+            <img class="news__card-image" src="img/news-7.webp" alt="Форум МАА SciTech 2018" width="318" height="226">
+            <span class="news__extra">13 Ноября 2018</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">Форум МАА SciTech 2018 — 13-15 ноября 2018 — Москва</h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="news__list-card hidden">
+            <img class="news__card-image" src="img/news-8.webp" alt="Встреча с Капитаном Регентом Сан-Марино"
+              width="318" height="226">
+            <span class="news__extra">18 Октября 2018</span>
+            <div class="news__text-wrap">
+              <h3 class="news__card-heading">Встреча Е.М.Малитикова с Капитаном Регентом Сан-Марино — 18 октября 2018
+                г.
+              </h3>
+              <div class="news__more-wrap">
+                <a class="news__more-link" href="#">
+                  <p class="news__card-more">Подробнее</p>
+                </a>
+                <span class="news__card-arrow">
+                  <img src="img/svg/right-arrow-white.svg" alt="Стрелочка">
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="news__button button">Больше новостей</button>
+      </div>
+    </div>
+  </section>
+  <section class="channel">
+    <div class="channel__container container">
+      <div class="channel__content">
+        <h2 class="channel__heading">Научно-популярный канал МА «ЗНАНИЕ»</h2>
+        <div class="channel__list grid-4">
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item">
+              <img class="channel__image" src="img/svg/channel-icons/icon-1.svg" alt="Архитектура" width="34"
+                height="34">
+              <p class="channel__text">Архитектура</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">696</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item">
+              <img class="channel__image" src="img/svg/channel-icons/icon-2.svg" alt="Биология" width="34" height="34">
+              <p class="channel__text">Биология</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">4205</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item">
+              <img class="channel__image" src="img/svg/channel-icons/icon-3.svg" alt="Животные" width="34" height="34">
+              <p class="channel__text">Животные</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">703</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item">
+              <img class="channel__image" src="img/svg/channel-icons/icon-4.svg" alt="Искусственный интеллект"
+                width="34" height="34">
+              <p class="channel__text">Искусственный интеллект</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">332</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item">
+              <img class="channel__image" src="img/svg/channel-icons/icon-5.svg" alt="История" width="34" height="34">
+              <p class="channel__text">История</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">696</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="asteroids.html" target="_blank">
+            <div class="channel__list-item">
+              <img class="channel__image" src="img/svg/channel-icons/icon-6.svg" alt="Катастрофы" width="34"
+                height="34">
+              <p class="channel__text">Катастрофы</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">4205</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-7.svg"
+                alt="Космос" width="34" height="34">
+              <p class="channel__text">Космос</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">703</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="proverbs.html" target="_blank">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-8.svg"
+                alt="Культура и искусство" width="34" height="34">
+              <p class="channel__text">Культура и искусство</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">332</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-9.svg"
+                alt="Лингвистика" width="34" height="34">
+              <p class="channel__text">Лингвистика</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">696</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-10.svg"
+                alt="Математика" width="34" height="34">
+              <p class="channel__text">Математика</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">4205</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-11.svg"
+                alt="Медицина" width="34" height="34">
+              <p class="channel__text">Медицина</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">703</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-12.svg"
+                alt="Научно-популярные каналы" width="34" height="34">
+              <p class="channel__text">Научно-популярные каналы</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">332</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-13.svg"
+                alt="Политика" width="34" height="34">
+              <p class="channel__text">Политика</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">696</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-14.svg"
+                alt="Психология" width="34" height="34">
+              <p class="channel__text">Психология</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">4205</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-15.svg"
+                alt="Путешествия" width="34" height="34">
+              <p class="channel__text">Путешествия</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">703</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-16.svg"
+                alt="Робототехника" width="34" height="34">
+              <p class="channel__text">Робототехника</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">332</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-17.svg"
+                alt="Тайны и расследования" width="34" height="34">
+              <p class="channel__text">Тайны и расследования</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">696</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-18.svg"
+                alt="Технологии" width="34" height="34">
+              <p class="channel__text">Технологии</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">4205</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-19.svg"
+                alt="Физика" width="34" height="34">
+              <p class="channel__text">Физика</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">703</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-20.svg"
+                alt="Химия" width="34" height="34">
+              <p class="channel__text">Химия</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">332</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-21.svg"
+                alt="Экология" width="34" height="34">
+              <p class="channel__text">Экология</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">696</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-22.svg"
+                alt="Очевидное-невероятное" width="34" height="34">
+              <p class="channel__text">Очевидное-невероятное</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">4205</span>
+              </span>
+            </div>
+          </a>
+          <a class="channel__list-link" href="#">
+            <div class="channel__list-item"> <img class="channel__image" src="img/svg/channel-icons/icon-23.svg"
+                alt="Библиотека на “Знание”" width="34" height="34">
+              <p class="channel__text">Библиотека на “Знание”</p>
+              <span class="channel__extra">
+                <img class="channel__extra-image" src="img/svg/play-button.svg" alt="Кнопка Play" width="10"
+                  height="10">
+                <span class="channel__number">703</span>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

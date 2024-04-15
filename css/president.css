@@ -1,0 +1,124 @@
+.president__container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.president__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 55px;
+}
+
+.president__heading {
+  margin-bottom: 30px;
+  font-family: "Georgia";
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 41px;
+  color: #000000;
+}
+
+.president__text {
+  max-width: 756px;
+  margin-bottom: 50px;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #000000;
+}
+
+.president__content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.president__picture {
+  display: flex;
+}
+
+.president__image {
+  flex-shrink: 0;
+}
+
+.heading-768 {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .president__content {
+    gap: 30px;
+  }
+
+  .president__heading {
+    max-width: 270px;
+    font-size: 30px;
+  }
+
+  .president__text {
+    margin-bottom: 40px;
+  }
+
+  .president__text-bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .president__heading {
+    width: 100%;
+    max-width: 530px;
+    font-size: 28px;
+  }
+
+  .president__content {
+    flex-direction: column-reverse;
+  }
+
+  .president__heading {
+    display: none;
+  }
+
+  .heading-768 {
+    display: block;
+  }
+
+  .president__image {
+    width: 738px;
+    height: auto;
+  }
+
+  .president__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .president__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .heading-768 {
+    max-width: 240px;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  .president__content {
+    gap: 20px;
+  }
+
+  .president__button {
+    width: 100%;
+  }
+
+  .president__image {
+    width: 100%;
+  }
+}

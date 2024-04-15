@@ -1,0 +1,143 @@
+.contacts__container {
+  padding-bottom: 60px;
+}
+
+.contacts__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__content-right {
+  padding-top: 40px;
+}
+
+.contacts__info {
+  max-width: 230px;
+  margin-right: 40px;
+}
+
+.contacts__heading {
+  margin-bottom: 58px;
+  font-family: "Georgia";
+  font-size: 44px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 50px;
+  color: #000000;
+}
+
+.contacts__address-wrap,
+.contacts__tel-wrap {
+  margin-bottom: 30px;
+}
+
+.contacts__name {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  color: #000000;
+}
+
+.contacts__text {
+  display: block;
+  font-family: "Cera Pro";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 25px;
+  color: #000000;
+}
+
+.contacts__map {
+  position: relative;
+  width: 1011px;
+  height: 504px;
+}
+
+.contacts__map-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 1360px) {
+  .contacts__map {
+    width: 640px;
+    height: 354px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contacts__heading {
+    margin-bottom: 48px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  .contacts__heading {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .contacts__text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .contacts__content {
+    flex-direction: column;
+  }
+
+  .contacts__map {
+    width: 100%;
+    max-width: 738px;
+    height: 408px;
+  }
+
+  .contacts__info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .contacts__address-wrap,
+  .contacts__email-wrap,
+  .contacts__tel-wrap {
+    flex-wrap: wrap;
+    max-width: 201px;
+  }
+
+  .contacts__address-wrap,
+  .contacts__tel-wrap {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__info {
+    flex-direction: column;
+  }
+
+  .contacts__address-wrap,
+  .contacts__tel-wrap {
+    margin-bottom: 30px;
+  }
+
+  .contacts__heading {
+    font-size: 26px;
+  }
+
+  .contacts__map {
+    height: 280px;
+  }
+}

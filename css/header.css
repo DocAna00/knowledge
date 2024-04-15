@@ -1,0 +1,159 @@
+.header {
+  margin-bottom: 42px;
+}
+
+.header__container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  gap: 40px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.header__logo-text {
+  display: none;
+}
+
+.header__lang-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.header__menu-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;;
+  -webkit-transition: all .3s;
+          transition: all .3s;
+}
+
+.header__menu-link:hover {
+  color: #0082e0;;
+}
+
+.header__visually {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #0082e0;;
+  border-radius: 10px;
+  -webkit-transition: all .3s;
+          transition: all .3s;
+}
+
+.header__visually-icon {
+  fill: #0082e0;;
+}
+
+.header__visually:hover {
+  background: #0082e0;;
+}
+
+.header__visually:hover path {
+  fill: #ffffff;;
+}
+
+@media (max-width: 1024px) {
+  .header__visually {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.header__lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  font-weight: 700;
+  color: #000000;;
+
+  gap: 5px;
+}
+
+@media (max-width: 1024px) {
+  .header__lang-desktop {
+    display: none;
+  }
+
+  .header__button-wrapper {
+    display: flex;
+
+    gap: 20px;
+  }
+
+  .header__logo-text {
+    display: block;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    color: #000000;
+  }
+
+  .header__logo-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 38px;
+  }
+
+  .header__visually {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header__menu-link {
+    font-size: 16px;
+  }
+}

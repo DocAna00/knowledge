@@ -1,0 +1,95 @@
+.channel__container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.channel__heading {
+  margin-bottom: 43px;
+  font-family: "Georgia";
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 41px;
+  color: #000000;
+}
+
+.channel__list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 76px;
+  padding-left: 21px;
+  border: 1px solid #0082e0;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: all .3s ease;
+}
+
+.channel__list-item:hover {
+  background: rgba(204,229,246, .5);
+  cursor: pointer;
+}
+
+.channel__list-item:hover .channel__text,
+.channel__list-item:hover .channel__number {
+  color: #0082e0;
+  transition: all .3s ease;
+}
+
+.channel__image {
+  margin-right: 8px;
+}
+
+.channel__text {
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  color: #000000;
+}
+
+.channel__extra {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+}
+
+.channel__extra-image {
+  margin-right: 4px;
+}
+
+.channel__number {
+  font-family: "Cera Pro";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .channel__heading {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .channel__heading {
+    font-size: 28px;
+  }
+
+  .channel__image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .channel__heading {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+}

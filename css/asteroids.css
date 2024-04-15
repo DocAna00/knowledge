@@ -1,0 +1,69 @@
+.asteroids__container {
+  padding-bottom: 60px;
+}
+
+.asteroids__heading {
+  margin-bottom: 40px;
+  font-family: "Georgia";
+  font-size: 44px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 50px;
+  color: #000000;
+}
+
+.asteroids__content {
+  display: flex;
+
+  gap: 30px;
+}
+
+.asteroids__video-image {
+  border-radius: 12px;
+}
+
+.asteroids-gap {
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .asteroids__content {
+    flex-direction: column;
+
+    gap: 80px;
+  }
+
+  .asteroids__video-image {
+    width: 100%;
+  }
+
+  .asteroids__heading {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .asteroids-gap {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .asteroids__heading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .asteroids__heading {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  .asteroids__content {
+    gap: 60px;
+  }
+
+  .asteroids-gap {
+    gap: 20px;
+  }
+}

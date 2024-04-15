@@ -1,0 +1,215 @@
+.graduations__container {
+  padding-bottom: 60px;
+}
+
+.graduations__heading {
+  max-width: 1021px;
+  margin-bottom: 12px;
+  font-family: "Georgia";
+  font-size: 44px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 50px;
+  color: #000000;
+}
+
+.graduations__date {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-family: "Cera Pro";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #000000;
+}
+
+.graduations__text {
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #000000;
+}
+
+.graduations__content {
+  display: flex;
+}
+
+.graduations__content-text {
+  width: 80%;
+  max-width: 897px;
+  margin-right: 30px;
+}
+
+.graduations__text {
+  margin-bottom: 40px;
+}
+
+.graduations__pictures {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 19px;
+}
+
+.graduations__image {
+  border-radius: 12px;
+}
+
+.graduations__recommend-heading {
+  margin-bottom: 20px;
+  font-family: "Georgia";
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 32px;
+  color: #000000;
+}
+
+.graduations__link {
+  color: #000000;
+}
+
+.graduations__recommendation-date {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-family: "Cera Pro";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #000000;
+}
+
+.graduations__recommendation-heading {
+  max-width: 370px;
+  font-family: "Cera Pro";
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 25px;
+  color: #000000;
+}
+
+.graduations__recommendation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 12px;
+}
+
+.graduations__recommend-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .graduations__heading {
+    max-width: 740px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .graduations__content {
+    flex-direction: column;
+  }
+
+  .graduations__content-text {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
+
+  .graduations__recommend-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .graduations__recommendation {
+    width: 450px;
+    height: 139px;
+  }
+
+  .graduations__recommendation-heading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .graduations__heading {
+    max-width: 686px;
+    font-size: 28px;
+  }
+
+  .graduations__date {
+    margin-bottom: 30px;
+  }
+
+  .graduations__text {
+    margin-bottom: 30px;
+  }
+
+  .graduations__image {
+    width: 226px;
+    height: 150px;
+  }
+
+  .graduations__pictures {
+    gap: 28px;
+  }
+
+  .graduations__pictures {
+    font-size: 26px;
+  }
+
+  .graduations__recommendation {
+    max-width: 354px;
+  }
+
+  .graduations__recommend-content {
+    gap: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  .graduations__heading {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+
+  .graduations__date {
+    margin-bottom: 20px;
+  }
+
+  .graduations__text {
+    margin-bottom: 40px;
+  }
+
+  .graduations__image {
+    width: 150px;
+    height: 100px;
+  }
+
+  .graduations__content-text {
+    margin-bottom: 60px;
+  }
+
+  .graduations__recommend-heading {
+    font-size: 26px;
+  }
+
+  .graduations__recommendation {
+    max-width: 330px;
+  }
+
+  .graduations__recommendation-heading {
+    font-size: 16px;
+  }
+}

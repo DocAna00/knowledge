@@ -1,0 +1,81 @@
+.facts {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.facts__container {
+  padding-top: 92px;
+  padding-bottom: 92px;
+  background-image: url("../img/planets-1440.webp");
+}
+
+.facts__heading {
+  margin-bottom: 33px;
+  font-family: "Georgia";
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 41px;
+  color: #ffffff;
+}
+
+.facts__text {
+  max-width: 635px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .facts__container {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    background-image: url("../img/planets-960.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .facts__heading {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .facts__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("../img/planets-768.webp");
+  }
+
+  .facts__heading {
+    font-size: 28px;
+  }
+
+  .facts__text {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .facts {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .facts__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("../img/planets-360.webp");
+  }
+
+  .facts__heading {
+    max-width: 270px;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+}
